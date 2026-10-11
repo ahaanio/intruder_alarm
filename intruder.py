@@ -15,8 +15,6 @@ np = neopixel.NeoPixel(np_pin, num_leds)
 pir = Pin(16, Pin.IN, Pin.PULL_DOWN)
 buzzer = PWM(Pin(15))
 buzzer.duty_u16(0) ## Fixed buzzer logic
-servo = PWM(Pin(17))
-servo.freq(50)
 
 def set_color(r, g, b):
     for i in range(num_leds):
