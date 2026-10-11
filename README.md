@@ -11,4 +11,4 @@ pico's 3v3 OUT. When connecting the transistor, make sure the flat side with the
 is connected to the negative leg of the buzzer. The middle leg is connected to a resistor, which then connects to GP15. The left most leg is connected to any GND on 
 controller. For the PIR motion sensor, the GND is connected to the negative rail, the OUT is connected to GP16, and the VCC is connected to the VBUS via the 
 postive rail. Finally, the led light strip had the GND connected to the negative rail, the DIn to GP18, and the 5V connected to the postive rail with VBUS. I 
-checked for short circuits using a multimeter, just to make sure nothing breaks. 
+checked for short circuits using a multimeter, just to make sure nothing breaks. Have fun using your new security alarm!
